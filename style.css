@@ -1,0 +1,24 @@
+.field {
+    background-image: url(back.png);
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+}
+
+.tank {
+    background-image: url(player-right.png);
+    background-repeat: no-repeat;
+    width: 78px;
+    height: 77px;
+    position: absolute;
+    left: 100px;
+    top: 200px;
+}
+
+.bullet {
+    background-image: url(bullet.png);
+    background-repeat: no-repeat;
+    width: 16px;
+    height: 16px;
+    position: absolute;
+}
